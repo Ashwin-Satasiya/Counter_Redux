@@ -1,0 +1,35 @@
+.counter-container {
+  background-color: rgb(170, 208, 209);
+  border: 10px solid rgb(198, 227, 110);
+  box-shadow: 5px 15px 25px rgb(66, 66, 195);
+  border-radius: 5px;
+  width: 50%;
+  margin: auto;
+  margin-top: 25px;
+  text-align: center;
+  padding: 125px;
+}
+
+@media only screen and (max-width: 1250px) {
+  .counter-container {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 694px) {
+  .counter-container {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .input-counter {
+    width: 100%;
+  }
+  .input-number {
+    width: 100%;
+  }
+  .input-button {
+    display: flex;
+    width: 100%;
+  }
+}
